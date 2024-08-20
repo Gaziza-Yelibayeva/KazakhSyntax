@@ -1,8 +1,7 @@
 # KazakhSyntax
 Syntax of the Kazakh language
 
-This is a syntax analysys package for [Kazakh]
-(https://en.wikipedia.org/wiki/Kazakh_language) that was implemented in
+This is a syntax analysys package for [Kazakh](https://en.wikipedia.org/wiki/Kazakh_language) that was implemented in
 [GF](https://www.grammaticalframework.org/)
 
 To use this package just clone this repository like so:
@@ -14,19 +13,19 @@ version:https://github.com/Gaziza-Yelibayeva/KazakhSyntax/archive/refs/heads/mai
 
 The archive or a cloned repository will contain `KazakhSyntax-main` directory,
 which contains all the gf. files:
-\[1\] SyntaxAbs.gf
-\[2\] SyntaxCon.gf
-\[3\] ResSyntax.gf
-\[4\] VocabAbs.gf
-\[5\] VocabCon.gf
-\[6\] cat_ZEAbs.gf
-\[7\] cat_ZECon.gf
-\[8\] cat_R_SEAbs.gf
-\[9\] cat_R_SECon.gf
-\[10\] cat_SNAbs.gf
-\[11\] cat_SNCon.gf
-\[12\] cat_ETAbs.gf
-\[13\] cat_ETCon.gf
+1) SyntaxAbs.gf - abstract grammar
+2) SyntaxCon.gf - concrete grammar
+3) ResSyntax.gf - syntax resoure file
+4) VocabAbs.gf - abstact vocabulary
+5) VocabCon.gf - concrete vocabulary
+6) cat_ZEAbs.gf - noun abstract vocabulary
+7) cat_ZECon.gf - noun concrete vocabulary
+8) cat_R_SEAbs.gf - adjective abstract vocabulary
+9) cat_R_SECon.gf - adjective concrete vocabulary
+10) cat_SNAbs.gf - numeral abstract vocabulary
+11) cat_SNCon.gf - numeral concrete vocabulary
+12) cat_ETAbs.gf - verb abstract vocabulary
+13) cat_ETCon.gf - verb concrete vocabulary
 
 In order to correctly import all these files, you should run GF in the same
 directory with `KazakhSyntax-main`.
