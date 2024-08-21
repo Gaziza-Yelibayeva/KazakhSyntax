@@ -28,13 +28,17 @@ which contains all the gf. files:
 13) cat_ETCon.gf - verb concrete vocabulary
 
 In order to correctly import all these files, you should run GF in the same
-directory with `KazakhSyntax-main`.
-
-To check, if everything is working, you can run this test code like so:
+directory with `KazakhSyntax-main` by launching
 ```shell
-> VocabCon.gf
+> gf
 ```
-This should call all other files that mentioned in the list above, and run the
+
+To check, if everything is working, you can run this test code like this
+(in the GF shell):
+```shell
+> i VocabCon.gf
+```
+This should call all other files that are mentioned in the list above, and run the
 GF program itself.
 
 ### <a name="ch51"></a> Syntax parsing example usage
